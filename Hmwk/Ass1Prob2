@@ -1,0 +1,41 @@
+/* 
+ * File:   main.cpp
+ * Author: Osvaldo Arteaga
+ * Created on January 2, 2019, 12:36 PM
+ * Purpose:  Creation of Template to be used for all
+ *           future projects
+ */
+
+//System Libraries
+#include <iostream>  //Input/Output Library
+using namespace std;
+
+//User Libraries
+
+//Global Constants, no Global Variables are allowed
+//Math/Physics/Conversions/Higher Dimensions - i.e. PI, e, etc...
+
+//Function Prototypes
+
+//Execution Begins Here!
+int main(int argc, char** argv) {
+    //Set the random number seed
+    
+    //Declare Variables
+    float ckies, srving;
+    float ttlCal;
+    
+    //Initialize or input i.e. set variable values
+    srving = 4;
+    
+    cout << "Calorie Counter"<<endl;
+    cout<< "How many cookies did you eat?"<<endl;
+    cin >> ckies;
+    
+    ttlCal = (ckies/srving)*300; //300 is the amount of calories per serving
+    //Display the outputs
+    
+    cout << "You consumed "<<ttlCal<< " calories.";
+    //Exit stage right or left!
+    return 0;
+}
